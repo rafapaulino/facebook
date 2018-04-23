@@ -6,7 +6,7 @@ require_once 'bootstrap.php';
 try {
   // Returns a `Facebook\FacebookResponse` object
   $response = $fb->get(
-    '/196613427043958/likes',
+    '/196613427043958',
     'EAACdjuv7jIgBABZBGj4YH5son6CP6dgnvxmGipx89UlnMJ7l6OLJDfEMglAgAZCX6du8Ic0oF5qXq6dZBRG67rly6bUuwE3mAguCZBtTSoIIqyeHSZCUZA9Sj6tf371LYcXRgHUs1m8s3iKrNe20BozwzcNF27rzVgixmL35a9SAZDZD'
   );
 } catch(Facebook\Exceptions\FacebookResponseException $e) {
