@@ -1,5 +1,9 @@
 <?php
 
+if(!session_id()) {
+    session_start();
+}
+
 require_once 'vendor/autoload.php';
 $config = include 'src/config.php';
 
